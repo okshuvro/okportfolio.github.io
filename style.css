@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: regular;
+}
+
+
+/*--------- Font ----------*/
+
+@font-face {
+    font-family: slam;
+    src: url(Fonts/Slams.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(Fonts/Montserrat-Regular.ttf)
+}
+
+
+/*----------------- Menu ------------------*/
+
+.menu {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.menu .first-part {
+    width: 50%;
+}
+
+.menu .first-part a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.menu .first-part h3 {
+    font-size: 31px;
+}
+
+.menu .second-part {
+    width: 50%;
+}
+
+.menu .second-part>ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    align-items: center;
+}
+
+.menu .second-part>ul>li {}
+
+.menu .second-part>ul>li a {
+    text-decoration: none;
+    color: orangered;
+    padding: 6px 11px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.menu .second-part>ul>li a:hover {
+    background: orangered;
+    color: white;
+}
+
+
+/*------------------------------- Banner-1 -------------------*/
+
+.banner-1 {
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    margin: auto;
+}
+
+.banner-1 img {
+    height: 609px;
+    width: 100%;
+}
+
+.banner-1 .salad-shadow {
+    height: 550px;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+}
+
+.banner-1 p {
+    position: absolute;
+    width: 300px;
+    top: 0px;
+    bottom: 0px;
+    left: 80px;
+    margin: auto;
+    height: 150px;
+    text-align: left;
+    color: white;
+    font-size: 66px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: slam;
+}
+
+.banner-1 p>span {
+    text-align: right;
+    font-family: slam;
+}
+
+
+/*------------------------------- Banner-2 -------------------*/
+
+.banner-2 {
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-2-img {
+    height: 100%;
+}
+
+.banner-2-img img {
+    width: 702px;
+}
+
+.banner-2-h1 {
+    width: 148px;
+    position: absolute;
+    top: 0;
+    right: -1px;
+}
+
+.banner-2-h1 h1 {
+    width: 100%;
+    border: 1px;
+    color: orangered;
+    font-size: 36px;
+}
+
+.banner-2 h1 {}
+
+.banner-2-p {
+    position: absolute;
+    width: 310px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 18px;
+    height: 183px;
+}
+
+.banner-2-p p {
+    width: auto;
+    height: auto;
+    text-align: justify;
+    background: orangered;
+    padding: 19px;
+    font-size: 11px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px rgba(255, 98, 0, 0.33);
+    color: white;
+}
+
+
+/*--------------------------- Gallery------------------------*/
+
+.gallery {
+    margin-top: 50px;
+    height: 780px;
+    background: orangered;
+}
+
+.gallery .our-gallery {
+    height: 48px;
+    width: 250px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.gallery .our-gallery h1 {
+    text-align: center;
+    color: white;
+}
+
+.gallery .images {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: auto auto;
+    height: 650px;
+}
+
+.gallery .images .imgs {
+    margin: auto auto;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.gallery .images .imgs img {
+    height: 405px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/*------------------------ Our Chef ----------------------*/
+
+.chef {
+    height: 550px;
+    width: 70%;
+    margin: 60px auto;
+}
+
+.chef .our-chef {
+    margin-bottom: 50px;
+}
+
+.chef .our-chef h1 {
+    text-align: center;
+    color: orangered;
+    font-size: 40px;
+}
+
+.chef .chefs {
+    display: flex;
+    justify-content: center;
+    height: 80%;
+}
+
+.chef .chefs .main-chef {
+    width: 46%;
+}
+
+.chef .chefs .main-chef .main-chef-border {
+    height: 100%;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 44px;
+}
+
+.chef .chefs .main-chef img {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 88px;
+    bottom: 0px;
+    left: -48px;
+    right: 0px;
+    width: 601px;
+}
+
+.chef .chefs .other-chef {
+    width: 48%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.chef .chefs .other-chef .chef001 {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.chef .chefs .other-chef img {
+    height: 150px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    right: 0;
+    margin: auto;
+}
+
+.chef .chefs .other-chef .chef001:nth-child(1) img {
+    height: 140px;
+    left: -88px;
+    margin: auto;
+}
+
+.chef .chefs .other-chef .chef001:nth-child(5) img {
+    height: 150px;
+    left: -43px;
+    margin: auto;
+}
+
+.chef .chefs .other-chef .chef001:nth-child(9) img {
+    height: 150px;
+    left: -45px;
+    margin: auto;
+}
+
+.chef .chefs .other-chef .chef001:nth-child(6) img {
+    height: 150px;
+    left: -45px;
+    top: 4px;
+    margin: auto;
+}
+
+
+/*--------------------------------- Blog -----------------------*/
+
+
+/*------------------------ Blog Image -----------------------*/
+
+.blog-area {
+    background: #F5F5F5;
+    height: 790px;
+    margin-top: 40px;
+}
+
+.blog {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.blog h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: orangered;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.blog .the-blog {
+    display: flex;
+    margin-top: auto;
+    width: 70%;
+}
+
+.blog .the-blog .blog-img {
+    height: 257px;
+    width: 440px;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog .the-blog .blog-img img {
+    width: 566px;
+    position: absolute;
+    top: 45px;
+    bottom: -1px;
+    left: -39px;
+    right: 0;
+    margin: auto;
+}
+
+.blog .the-blog01 {
+    box-shadow: 5px 5px 10px;
+    margin-right: 25px;
+    margin-left: 6px;
+    width: 566px;
+    position: relative;
+    background: white;
+}
+
+.blog .the-blog02 {}
+
+
+/*---------------------- Blog Description -----------------*/
+
+.blog .the-blog01 h2 {
+    margin: 15px 30px;
+    font-size: 30px;
+}
+
+.blog .the-blog01 p {
+    margin: 0px 30px;
+    width: 90%;
+    font-size: 13px;
+}
+
+.blog .the-blog01 h3 {
+    margin: 20px 30px;
+    background: #FAC9B1;
+    width: 84px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.blog .the-blog01 h4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    text-align: center;
+    color: wheat;
+    background: orangered;
+    padding: 10px;
+}
+
+.blog-area .blog .the-blog .the-blog01:nth-child(1) {
+    margin-left: 22px;
+}
+
+
+/*---------------------- Contact Us ------------------------*/
+
+.contact {
+    margin-top: 28px;
+}
+
+.contact h1 {
+    text-align: center;
+    color: orangered;
+    font-size: 35px;
+}
+
+.contact .contact-form {
+    width: 30%;
+    margin: auto;
+}
+
+.contact .contact-form form {}
+
+.contact .contact-form form textarea {
+    padding: 15px;
+    width: 90%;
+}
+
+.contact .contact-form form input {
+    display: block;
+    margin: 20px 0px;
+    padding: 8px;
+    width: 93%;
+}
+
+.contact .contact-form form input[type="submit"] {
+    width: auto;
+    padding: 8px 60px;
+    background: orangered;
+    color: white;
+}
+
+.contact .contact-form form input,
+.contact .contact-form form textarea,
+.contact .contact-form form input[type="submit"] {
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: orangered;
+    border-style: solid;
+}
+
+
+/*------------------------ Google Map ----------------------------*/
+
+.map>iframe {
+    height: 370px;
+    width: 100%;
+}
+
+.map {
+    margin: 60px auto;
+    width: 70%;
+}
+
+.map p {
+    color: orangered;
+    text-align: center;
+    font-size: 11px;
+}
